@@ -36,6 +36,7 @@
                         <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
                         <manifestEntries>
                             <Export-Package>
+                                javax.annotation.security;version=1.0,
                                 sun.security,
                                 sun.security.util
                             </Export-Package>
